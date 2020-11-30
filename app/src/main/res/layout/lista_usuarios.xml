@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tctNombreLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.8 "
+            android:textColor="#3F51B5"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txtDescripción"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.8 "
+            android:text="Fecha"
+            android:textColor="#3F51B5"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="URL GOOGLE MAPS:"
+            android:textColor="#009688"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.8 "
+            android:text="Hora"
+            android:textColor="#3F51B5"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Hora De Inicio:"
+            android:textColor="#009688"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHoraInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.8 "
+            android:text="Usuario"
+            android:textColor="#3F51B5"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Hora De Fin:"
+            android:textColor="#009688"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtHoraFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.8 "
+            android:text="Usuario"
+            android:textColor="#3F51B5"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent" />
+</LinearLayout>

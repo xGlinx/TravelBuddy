@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoevento"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Nombre Evento" />
+
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Descripción" />
+            <TextView
+                android:id="@+id/idDistrito"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="ID Distrito"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txtdistrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Distrito" />
+
+            <TextView
+                android:id="@+id/txtDetalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Detalle" />
+
+            <ImageView
+                android:id="@+id/idfotografia"
+                android:layout_width="match_parent"
+                android:layout_height="177dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtFechahora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="Fecha y Hora" />
+
+            <TextView
+                android:id="@+id/txtlongitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:text="Longitud" />
+
+
+
+            <TextView
+                android:id="@+id/txtlatitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:text="Latitud" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/separador"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

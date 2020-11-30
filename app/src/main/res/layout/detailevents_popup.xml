@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#95E4FA"
+    android:padding="12sp">
+
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/txt_event_detail_name_title"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Nombre del evento:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_event_detail_name"
+            android:textSize="16sp"
+            android:layout_weight="6"
+            android:text="El nombre del evento es ..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/txt_event_detail_district_title"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Distrito:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_event_detail_district"
+            android:textSize="16sp"
+            android:layout_weight="6"
+            android:text="Distrito ..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/txt_event_detail_description_title"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Descripción del evento:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_event_detail_description"
+            android:textSize="16sp"
+            android:layout_weight="6"
+            android:text="La descripcion del evento es ..."
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10">
+        <TextView
+            android:id="@+id/txt_event_detail_detail_title"
+            android:layout_marginRight="10sp"
+            android:textSize="16sp"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:text="Detalle del evento:"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/txt_event_detail_detail"
+            android:textSize="16sp"
+            android:layout_weight="6"
+            android:text="Detalle del evento es ..."
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:id="@+id/txt_event_detail_time"></TextView>
+
+    <ImageView
+        android:layout_margin="10sp"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:id="@+id/iv_event_detail_imagen"></ImageView>
+</LinearLayout>
+</ScrollView>

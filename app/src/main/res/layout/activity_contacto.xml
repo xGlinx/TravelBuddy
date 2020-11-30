@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacto">
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />
+
+    <ImageView
+        android:id="@+id/img_recoprin"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:background="#BE000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="@android:color/transparent"
+        android:paddingTop="220dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A6000000"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:background="#E91E63"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:text="Defensa Civil"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Localiación: Municipalidad de Huancayo "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/txt_reco111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Telefono: 232230 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+
+                <ImageView
+                    android:id="@+id/img_reco1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    app:srcCompat="@drawable/def"
+                    tools:src="@drawable/def" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#009688"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bomberos Huancayo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco22"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dirección: Jiron Ancash 603 , Huancayo"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/txt_reco112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Telefono: 233333 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_reco2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="190dp"
+                    android:src="@drawable/bom" />
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#FF9800"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:text="Comisaria Huancayo "
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dirección:Jiron Ferrocarril 555, Huancayo."
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/txt_reco113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Telefono: 231961 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    tools:layout_marginTop="50dp" />
+                <ImageView
+                    android:id="@+id/img_reco3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/com" />
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#673AB7"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Hospital Regional"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco44"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dirección: Avenida Daniel Alcides Carrión 1551"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/txt_reco115"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Telefono: 232222 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    tools:layout_marginTop="50dp" />
+
+                <ImageView
+                    android:id="@+id/img_reco4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="190dp"
+                    android:src="@drawable/regional" />
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#03A9F4"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:text="Hospital Area de Salud "
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Abierto las 24 horas para la átencion de las personas."
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/txt_reco116"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="60dp"
+                    android:text="Telefono: 231832 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    tools:layout_marginTop="50dp" />
+
+                <ImageView
+                    android:id="@+id/img_reco5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/area" />
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#F44336"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Radio Patrulla"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco440"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Se encuentran monitoreando las calles de Huancayo las 24 horas del dia"
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/txt_reco117"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Telefono: 105 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    />
+                <ImageView
+                    android:id="@+id/img_reco40"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="190dp"
+                    android:src="@drawable/policia"/>
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#9C27B0"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:text="ESSALUD Policlinico"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco550"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dirección: Avenida Independencia 266, Huancayo."
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/txt_reco1170"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Telefono: 233340 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/img_reco50"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/esa" />
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:background="#8BC34A"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/txt_reco401"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="PNP(Ayuda Al Turista)"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16dp"
+                    app:fontFamily="@font/abril_fatface" />
+
+                <TextView
+                    android:id="@+id/txt_reco4401"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Sollo llamar a cualquier problema o inconveniente que presente en nuestra ciudad."
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/txt_reco1172"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Telefono: 219851 "
+                    android:textColor="#FFFFFF"
+                    android:textSize="13dp"
+                    />
+                <ImageView
+                    android:id="@+id/img_reco401"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="190dp"
+                    android:src="@drawable/turis"
+                    />
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="320dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="-10dp"
+                    android:background="@android:color/transparent" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

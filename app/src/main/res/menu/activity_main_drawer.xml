@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuTab"
+            android:icon="@drawable/icon_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_informate"
+            android:icon="@drawable/icon_lugar"
+            android:title="Lugares Turísticos " />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/icon_youtube"
+            android:title="Videos Informativos" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/icon_eventos"
+            android:title="Eventos Locales" />
+    </group>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B2FFFFFF" />
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_config"
+                android:icon="@drawable/icon_perfil"
+                android:title="Perfil de Usuario" />
+
+            <item
+                android:id="@+id/nav_cerrar"
+                android:icon="@drawable/icon_close"
+                android:title="Cerrar Sesión" />
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/icon_ayuda"
+                android:title="Ayuda y Comentarios" />
+
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#95E4FA"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="40dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#FDFDFD"
+        android:layout_width="match_parent"
+        android:layout_height="5sp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="end"
+                android:id="@+id/list_prox_event_dia_name"
+                android:text="Dia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_gravity="end"
+                android:id="@+id/list_prox_event_dia"
+                android:text="31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/list_prox_event_btn"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="ITEM 1"
+                android:textAlignment="center"
+                android:textColor="#084BBA"
+                android:textSize="14sp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

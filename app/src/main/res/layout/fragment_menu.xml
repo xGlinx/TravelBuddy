@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.MenuFragment"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/superior"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/fondociudad"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#25FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/input4"
+       >
+
+        <Button
+            android:id="@+id/btn_ranking"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ranking"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="105dp"
+            android:text="Top de Lugares"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/input4">
+
+        <Button
+            android:id="@+id/btn_mapa"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+
+            app:srcCompat="@drawable/gps" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:text="Lugares Cercanos"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout10"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/input4">
+
+        <Button
+            android:id="@+id/btn_eventos"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/eventosprox"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="105dp"
+            android:text="Eventos Proximos"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout20"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/input4">
+
+        <Button
+            android:id="@+id/btn_rutas"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="15dp"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ruta" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="90dp"
+            android:text="Rutas Predeterminadas"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="14sp" />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+
+        android:background="@drawable/input4"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btn_historial"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/historial"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:srcCompat="@drawable/historial" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="90dp"
+            android:text="Historial de Visitas"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="15sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/input4">
+
+        <Button
+            android:id="@+id/btn_contacto"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:background="@android:color/transparent"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/contactos" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="105dp"
+            android:text="Contactos"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textSize="15sp" />
+
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
